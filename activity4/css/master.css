@@ -1,0 +1,27 @@
+body {
+    font-family:"Open Sans",sans-serif;
+    color:e#555;
+}
+h1{
+color:pink;
+background-color: peachpuff;
+}
+
+
+img {
+height: 100px;
+text-align:left;
+}
+
+figcaption span {
+font-size: .85em;
+}
+product-description{
+margin:20 px 20 px;
+text-align:justify;
+}
+div.review {
+padding:10px;
+background-color: pink;
+margin: 20px  20px;
+}
