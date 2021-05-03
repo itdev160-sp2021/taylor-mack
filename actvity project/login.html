@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+
+        <h2>Taylor's Login Page</h2>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        
+        <div id="id01" class="modal">
+          
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="data:image/png;base64,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" alt="shoppingbag" class="avatar">
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+        
+        <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+        
+        </body>  
+</body>
+</html>
